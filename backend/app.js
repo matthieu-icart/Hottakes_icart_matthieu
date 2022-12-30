@@ -7,7 +7,7 @@ const helmet = require('helmet');
 require('dotenv').config();
 
 // Config Ddos
-const ddos = new Ddos({burst:10, limit:15});
+const ddos = new Ddos({ burst: 10, limit: 15 });
 
 // Import Router
 const userRoutes = require('./routes/user');
